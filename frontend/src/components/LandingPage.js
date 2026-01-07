@@ -1,5 +1,4 @@
-import React from 'react';
-import { Box, Typography, Button, Container, Grid, Card, CardContent, useMediaQuery } from '@mui/material';
+import { Box, Button, Card, CardContent, Container, Grid, Typography, useMediaQuery } from '@mui/material';
 import { Link } from 'react-router-dom';
 
 const LandingPage = () => {
@@ -44,7 +43,8 @@ const LandingPage = () => {
               fontSize: isSmallScreen ? '2rem' : 'clamp(2rem, 5vw, 3rem)',
             }}
           >
-            Welcome to Employee Management System
+            Welcome to batch 3
+            
           </Typography>
           <Typography
             variant="h6"
